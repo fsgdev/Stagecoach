@@ -24,6 +24,7 @@ This project is a clone of the Stagecoach Ticket application. It aims to replica
 - HTML 5
 - CSS 3
 - Node-JS
+- Bootstrap 5.3.1
 
 ## Installation
 
