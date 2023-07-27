@@ -43,7 +43,8 @@ To install and run this project, you will need to follow these steps:
   <li>Enter the color of the day</li>
   <li>Enter the ticket you wish</li>
   <li>Click on the magic button</li>
-  <li> Your all set <strong>hasta la vista</strong></li>
+  <li> You;re all set. </li>
+  <li><strong>hasta la vista</strong></li>
 </ol>
 
 ## Contribution Guidelines
