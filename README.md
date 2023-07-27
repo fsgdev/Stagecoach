@@ -52,15 +52,16 @@ To install and run this project, you will need to follow these steps:
 We welcome contributions from the community. If you wish to contribute, please follow these steps:
 
 1. Fork the repository
-2. Create your feature branch: `git checkout -b feature/YourFeatureName`
+2. Create your feature branch: `git checkout -b feature/YourFeatureName.`
 3. Commit your changes: `git commit -m 'Add some feature.'`
-4. Push to the branch: `git push origin feature/YourFeatureName`
+4. Push to the branch: `git push origin feature/YourFeatureName.`
 5. Open a pull request
 
 ## License
 
 This project is licensed under the MIT License.
 
----
+
 ## Acknowledgments: 
-Special acknowledgment to @frkntkny whose idea pursued me to build the front end of the app.
+This project was done for educational purposes and is not affiliated with, officially connected to, or endorsed by the Stagecoach Group or any of its subsidiaries or affiliates.
+Special acknowledgement to @frkntkny whose idea pursued me to build the app's front end.
