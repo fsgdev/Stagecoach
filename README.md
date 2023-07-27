@@ -9,6 +9,7 @@
 - [Usage](#usage)
 - [Contribution Guidelines](#contribution-guidelines)
 - [License](#license)
+- [Acknowledgments](#acknowledgments)
 
 ## Introduction
 
@@ -69,6 +70,6 @@ We welcome contributions from the community. If you wish to contribute, please f
 This project is licensed under the MIT License.
 
 
-## Acknowledgments: 
+## Acknowledgments
 This project was done for educational purposes and is not affiliated with, officially connected to, or endorsed by the Stagecoach Group or any of its subsidiaries or affiliates.
 Special acknowledgement to @frkntkny whose idea pursued me to build the app's front end.
