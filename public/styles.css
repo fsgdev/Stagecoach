@@ -1,0 +1,312 @@
+.App {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  background-color: #e5e6e8;
+}
+
+html,
+body {
+  background-color: #e5e6e8;
+}
+/* Header of the Page */
+#header {
+  color: white;
+  background-color: #041c2b;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 600;
+  height: 130px;
+  font-size: 35px;
+  width: 100vw;
+}
+
+/*SVG  Color */
+svg {
+  color: white;
+  height: 60px;
+  width: 60px;
+}
+
+/*Header 2  of the Page*/
+#header2 {
+  width: 100vw;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-left: 0px;
+  padding-right: 20px;
+  font-size: 35px;
+  color: white;
+  background-color: #041c2b;
+  margin-top: -25px;
+  height: 100px;
+}
+
+#active-ticket {
+  height: 83px;
+  width: 270px;
+  padding-left: 15px;
+  border-bottom: 10px solid #008bd3;
+}
+
+/* Content container*/
+.full-height {
+  margin-top: -25px;
+  height: 100vh;
+  background-color: #e5e6e8;
+}
+
+/* Empty Ticket - Header*/
+#empty-header {
+  margin-top: 15px;
+  color: #041c2b;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+/*Empty Ticket - Paragraph*/
+#empty-message {
+  position: relative;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 40px;
+  color: #041c2b;
+}
+
+/* Buttons found in Buy Tickets */
+.custom {
+  padding: 10px;
+  margin: 10px;
+  background-color: #041c2b !important;
+  border-color: #041c2b !important;
+}
+
+/* Increase the height of the input field */
+#code,
+#color {
+  height: 60px; /* adjust according to your preference */
+}
+
+/* Reduce the width of the input field */
+#code,
+#color {
+  width: 50%; /* adjust according to your preference */
+  margin: 0 auto; /* centers the input field */
+}
+
+/* Increase font size for labels */
+.form-label {
+  font-size: 3rem; /* adjust according to your preference */
+}
+
+/* Increase font size for form text */
+.form-text {
+  font-size: 2rem !important; /* adjust according to your preference */
+}
+
+/* Button in the MyTicket Page*/
+.lh-1 {
+  background-color: #041c2b !important;
+  margin-top: 30px !important;
+}
+
+form {
+  margin-top: 50%;
+  margin-bottom: 50%;
+}
+
+/*
+Active Ticket Holder Container
+*/
+#active-container {
+  background-color: white !important;
+  width: 945px !important;
+  height: 100vh !important;
+  margin-top: -70px;
+}
+
+/* Ticket Name*/
+#ticket-name {
+  position: relative;
+  margin-top: 70px !important;
+  font-size: 5rem;
+  font-weight: 600 !important;
+  color: #041c2b !important;
+}
+
+/*Ticket-info container*/
+.ticket-info-container {
+  position: relative;
+  margin-top: 30px;
+  display: flex;
+  direction: row;
+  justify-content: space-between;
+  align-items: space-between;
+  border-top: 1px solid #041c2b;
+  border-bottom: 1px solid #041c2b;
+  width: 800px;
+}
+
+.ticket-info-container p {
+  padding: 10px;
+  font-size: 3rem;
+  color: #041c2b;
+  font-weight: 700;
+}
+
+.valid-date {
+  margin-top: 50px;
+  font-size: 3.1rem;
+  color: #041c2b;
+}
+
+.expiry-message {
+  margin-top: 10px;
+  font-size: 2.75rem;
+  color: #041c2b;
+}
+
+.count-down {
+  font-weight: 800;
+  font-size: 5.1rem;
+  color: #041c2b;
+}
+
+/* Identifer Code Container*/
+.udid-container {
+  margin-top: 10px;
+  position: relative;
+  display: flex;
+  direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5e6e8;
+  width: 825px;
+  height: 60px;
+  border-radius: 10px;
+}
+
+.udid-container p {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+/*Color-Code Container*/
+.color-code-container {
+  display: flex;
+  direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 105%;
+  margin-left: 0;
+  padding-left: 0;
+  height: 150px;
+}
+
+.color-code {
+  font-size: 5rem;
+  color: #041c2b;
+  font-weight: 650;
+}
+
+.bubbles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+.bubble {
+  position: absolute;
+  bottom: -100px;
+  width: 40px;
+  height: 40px;
+  background: #f1f1f1;
+  border-radius: 50%;
+  opacity: 0.5;
+  animation: rise 10s infinite ease-in;
+}
+.bubble:nth-child(1) {
+  width: 40px;
+  height: 40px;
+  left: 10%;
+  animation-duration: 8s;
+}
+.bubble:nth-child(2) {
+  width: 20px;
+  height: 20px;
+  left: 20%;
+  animation-duration: 5s;
+  animation-delay: 1s;
+}
+.bubble:nth-child(3) {
+  width: 50px;
+  height: 50px;
+  left: 35%;
+  animation-duration: 7s;
+  animation-delay: 2s;
+}
+.bubble:nth-child(4) {
+  width: 80px;
+  height: 80px;
+  left: 50%;
+  animation-duration: 11s;
+  animation-delay: 0s;
+}
+.bubble:nth-child(5) {
+  width: 35px;
+  height: 35px;
+  left: 55%;
+  animation-duration: 6s;
+  animation-delay: 1s;
+}
+.bubble:nth-child(6) {
+  width: 45px;
+  height: 45px;
+  left: 65%;
+  animation-duration: 8s;
+  animation-delay: 3s;
+}
+.bubble:nth-child(7) {
+  width: 90px;
+  height: 90px;
+  left: 70%;
+  animation-duration: 12s;
+  animation-delay: 2s;
+}
+.bubble:nth-child(8) {
+  width: 25px;
+  height: 25px;
+  left: 80%;
+  animation-duration: 6s;
+  animation-delay: 2s;
+}
+.bubble:nth-child(9) {
+  width: 15px;
+  height: 15px;
+  left: 70%;
+  animation-duration: 5s;
+  animation-delay: 1s;
+}
+.bubble:nth-child(10) {
+  width: 90px;
+  height: 90px;
+  left: 25%;
+  animation-duration: 10s;
+  animation-delay: 4s;
+}
+@keyframes rise {
+  0% {
+    bottom: -100px;
+    transform: translateX(0);
+  }
+  50% {
+    transform: translate(100px);
+  }
+  100% {
+    bottom: 1080px;
+    transform: translateX(-200px);
+  }
+}
