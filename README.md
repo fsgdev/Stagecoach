@@ -60,8 +60,10 @@ We welcome contributions from the community. If you wish to contribute, please f
 
 ## SCREENSHOTS:
 
-![IMG_9371](https://github.com/thenameisajay/Stagecoach-ticket-clone/assets/113372062/44ba0261-30d7-48eb-a406-b98d3da03f71)
-![IMG_9370](https://github.com/thenameisajay/Stagecoach-ticket-clone/assets/113372062/1f73efcb-6254-46ed-8510-01d3096fbbcd)
+<img src="https://github.com/thenameisajay/Stagecoach-ticket-clone/assets/113372062/44ba0261-30d7-48eb-a406-b98d3da03f71" width="200" height="200" alt="IMG_9371">
+
+<img src="https://github.com/thenameisajay/Stagecoach-ticket-clone/assets/113372062/1f73efcb-6254-46ed-8510-01d3096fbbcd" width="200" height="200" alt="IMG_9370">
+
 
 
 
