@@ -58,6 +58,13 @@ We welcome contributions from the community. If you wish to contribute, please f
 4. Push to the branch: `git push origin feature/YourFeatureName.`
 5. Open a pull request
 
+## SCREENSHOTS:
+
+![IMG_9371](https://github.com/thenameisajay/Stagecoach-ticket-clone/assets/113372062/44ba0261-30d7-48eb-a406-b98d3da03f71)
+![IMG_9370](https://github.com/thenameisajay/Stagecoach-ticket-clone/assets/113372062/1f73efcb-6254-46ed-8510-01d3096fbbcd)
+
+
+
 ## License
 
 This project is licensed under the MIT License.
