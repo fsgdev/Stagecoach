@@ -37,14 +37,14 @@ To install and run this project, you will need to follow these steps:
 ## Usage
 
 <ol>
-  <li>Initially there are no active tickets.</li>
+  <li>Initially, there are no active tickets.</li>
   <li>Go into My Tickets</li>
   <li>Enter the code of the day</li>
   <li>Enter the color of the day</li>
   <li>Enter the ticket you wish</li>
   <li>Click on the magic button</li>
-  <li> You;re all set. </li>
-  <li><strong>hasta la vista</strong></li>
+  <li> You're all set. </li>
+  <li><strong>HASTA LA VISTA</strong></li>
 </ol>
 
 ## Contribution Guidelines
@@ -53,7 +53,7 @@ We welcome contributions from the community. If you wish to contribute, please f
 
 1. Fork the repository
 2. Create your feature branch: `git checkout -b feature/YourFeatureName`
-3. Commit your changes: `git commit -m 'Add some feature'`
+3. Commit your changes: `git commit -m 'Add some feature.'`
 4. Push to the branch: `git push origin feature/YourFeatureName`
 5. Open a pull request
 
