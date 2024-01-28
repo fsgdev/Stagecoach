@@ -1,12 +1,13 @@
 .App {
   font-family: "Roboto", sans-serif;
   text-align: center;
-  background-color: #e5e6e8;
+  background-color: #b6cee5;
 }
 
 html,
 body {
-  background-color: #e5e6e8;
+  background-color: #b6cee5;
+  overflow-y: hidden;
 }
 /* Header of the Page */
 #header {
@@ -52,7 +53,7 @@ svg {
 .full-height {
   margin-top: -25px;
   height: 100vh;
-  background-color: #e5e6e8;
+  background-color: #b6cee5;
 }
 
 /* Empty Ticket - Header*/
@@ -118,7 +119,7 @@ form {
 Active Ticket Holder Container
 */
 #active-container {
-  background-color: white !important;
+  background-color: #b6cee5 !important;
   width: 945px !important;
   height: 100vh !important;
   margin-top: -70px;
@@ -309,4 +310,14 @@ Active Ticket Holder Container
     bottom: 1080px;
     transform: translateX(-200px);
   }
+}
+
+.readmore-container {
+  margin-top: 40px;
+  position: relative;
+}
+.readmore-btn {
+  color: green;
+  font-weight: 600;
+  font-size: 40px;
 }

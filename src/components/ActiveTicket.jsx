@@ -112,7 +112,7 @@ function ActiveTicket() {
             justifyContent: "center",
             alignItems: "center",
             flexDirection: "column",
-            backgroundColor: "#E5E6E8"
+            backgroundColor: "#b6cee5"
           }}
         >
           <div
@@ -123,7 +123,7 @@ function ActiveTicket() {
               <img
                 src="/images/qr-code.jpeg"
                 alt="static-qr-code"
-                style={{ height: "600px", width: "600px" }}
+                style={{ height: "500px", width: "500px" }}
               />
             </rect>
             <h1
@@ -173,6 +173,9 @@ function ActiveTicket() {
             </div>
             <div className="udid-container">
               <p>1231-20210916131213-232</p>
+            </div>
+            <div className="readmore-container">
+              <p class="readmore-btn">More Details <strong>></strong></p>
             </div>
           </div>
         </div>
