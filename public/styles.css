@@ -160,27 +160,33 @@ Active Ticket Holder Container
 }
 
 .expiry-message {
-  margin-top: 10px;
-  font-size: 2.75rem;
+  float: left;
+  font-weight: 500;
+  margin-top: 20px;
+  font-size: 2rem;
   color: #041c2b;
+  margin-bottom: 110px;
 }
 
 .count-down {
-  font-weight: 800;
-  font-size: 5.1rem;
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 2rem;
   color: #041c2b;
+  float: right;
+  margin-bottom: 110px;
 }
 
 /* Identifer Code Container*/
 .udid-container {
-  margin-top: 10px;
+  margin-top: 50px;
   position: relative;
   display: flex;
   direction: column;
   align-items: center;
   justify-content: center;
   background-color: #e5e6e8;
-  width: 825px;
+  width: 875px;
   height: 60px;
   border-radius: 10px;
 }
