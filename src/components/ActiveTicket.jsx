@@ -175,7 +175,7 @@ function ActiveTicket() {
               <p>1231-20210916131213-232</p>
             </div>
             <div className="readmore-container">
-              <p class="readmore-btn">More Details <strong>></strong></p>
+              <p class="readmore-btn">More Details <strong>➤</strong></p>
             </div>
           </div>
         </div>
