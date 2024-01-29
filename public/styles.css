@@ -166,6 +166,7 @@ Active Ticket Holder Container
   font-size: 2rem;
   color: #041c2b;
   margin-bottom: 110px;
+  margin-left: 80px;
 }
 
 .count-down {
@@ -175,6 +176,7 @@ Active Ticket Holder Container
   color: #041c2b;
   float: right;
   margin-bottom: 110px;
+  margin-right: 80px;
 }
 
 /* Identifer Code Container*/
