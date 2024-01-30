@@ -322,6 +322,7 @@ Active Ticket Holder Container
 .readmore-container {
   margin-top: 40px;
   position: relative;
+  padding-bottom: 30px;
 }
 .readmore-btn {
   color: green;
