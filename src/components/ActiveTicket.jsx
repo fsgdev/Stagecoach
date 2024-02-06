@@ -98,7 +98,7 @@ function ActiveTicket() {
   const handleOrientation = (event) => {
     let { beta } = event;
     // Restrict the tilt to between 0 and 30 degrees
-    beta = Math.min(Math.max(beta, 0), 20);
+    beta = Math.min(Math.max(beta, -20), 20);
     setTilt(beta);
   };
 
