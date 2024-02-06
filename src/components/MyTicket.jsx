@@ -70,7 +70,7 @@ function MyTicket() {
               onChange={handleTicketChange}
             >
               <option>-------------------</option>
-              <option>North East Flexi5</option>
+              <option>Midlands Gold 7 day MegaRider</option>
               <option>East Scotland Flexi5</option>
               <option>St Andrews Flexi5</option>
               <option>East Scotland 7 Day MegaRider</option>
