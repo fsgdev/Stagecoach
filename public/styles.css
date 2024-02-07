@@ -185,19 +185,20 @@ Active Ticket Holder Container
 /* Identifer Code Container*/
 .missingperson-container {
   margin-top: 10px;
-  margin-bottom:100px;
+  margin-bottom:110px;
   position: relative;
   display: flex;
   direction: column;
   align-items: center;
   justify-content: center;
   width: 875px;
-  height: 60px;
+  height: 10px;
   border-radius: 10px;
 }
 
 .missingperson-container p {
-  font-weight: 400;
+  font-weight: 300;
+  line-height: 2.4rem;
   font-size: 2.2rem;
   text-align:left;
 }
@@ -213,13 +214,13 @@ Active Ticket Holder Container
   background-color: #e5e6e8;
   width: 875px;
   height: 60px;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
 .udid-container p {
   margin-top: 10px;
-  font-weight: 600;
-  font-size: 2.5rem;
+  font-weight: 500;
+  font-size: 2.2rem;
 }
 
 /*Color-Code Container*/
