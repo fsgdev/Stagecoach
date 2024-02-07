@@ -96,9 +96,8 @@ function ActiveTicket() {
   const minutes = Math.floor((timeLeft / (1000 * 60)) % 60);
   const seconds = Math.floor((timeLeft / 1000) % 60);
   const handleOrientation = (event) => {
-    console.log(event);
     console.log(event.gamma);
-    let { beta } = event.gamma;
+    let { beta } = event;
     // Restrict the tilt to between 0 and 30 degrees
     beta = Math.min(Math.max(beta, -20), 20);
     setTilt(beta);
@@ -136,7 +135,7 @@ function ActiveTicket() {
             </h1>
             <div className="ticket-info-container">
               <p>1 Adult </p>
-              <p> £27.00 </p>
+              <p> £46.00 </p>
             </div>
             <p className="valid-date">
               Valid from: 00:00, {date} {monthName} {year}
@@ -172,6 +171,9 @@ function ActiveTicket() {
                 {hours}h : {minutes < 10 ? `0${minutes}` : minutes}m :{" "}
                 {seconds < 10 ? `0${seconds}` : seconds}s
               </p>
+            </div>
+            <div className="missingperson-container">
+              <p>If you feel like disappearing or know someone who has gone missing find Missing People for support. Call the free helpline on 116 000 which is confidential and non-judgemental.</p>
             </div>
             <div className="udid-container">
               <p>1231-20210916131213-232</p>
