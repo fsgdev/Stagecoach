@@ -43,6 +43,7 @@ svg {
 
 #active-ticket {
   height: 83px;
+  padding-left:15px;
   border-bottom: 10px solid #008bd3;
 }
 
@@ -126,7 +127,7 @@ Active Ticket Holder Container
 #ticket-name {
   position: relative;
   margin-top: 70px !important;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 600 !important;
   color: #041c2b !important;
 }
@@ -179,7 +180,7 @@ Active Ticket Holder Container
 
 /* Identifer Code Container*/
 .missingperson-container {
-  margin-top: 50px;
+  margin-top: 10px;
   position: relative;
   display: flex;
   direction: column;
@@ -193,7 +194,7 @@ Active Ticket Holder Container
 .missingperson-container p {
   margin-top: 10px;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 .udid-container {
