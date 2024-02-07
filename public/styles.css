@@ -31,7 +31,7 @@ svg {
 #header2 {
   width: 100vw;
   font-weight: 600;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-left: 0px;
   padding-right: 20px;
   font-size: 35px;
@@ -43,8 +43,6 @@ svg {
 
 #active-ticket {
   height: 83px;
-  width: 270px;
-  padding-left: 15px;
   border-bottom: 10px solid #008bd3;
 }
 
@@ -118,7 +116,7 @@ form {
 Active Ticket Holder Container
 */
 #active-container {
-  background-color: #b6cee5 !important;
+  background-color: #ffffff !important;
   width: 945px !important;
   height: 100vh !important;
   margin-top: -70px;
@@ -128,7 +126,7 @@ Active Ticket Holder Container
 #ticket-name {
   position: relative;
   margin-top: 70px !important;
-  font-size: 5rem;
+  font-size: 2rem;
   font-weight: 600 !important;
   color: #041c2b !important;
 }
@@ -154,8 +152,8 @@ Active Ticket Holder Container
 }
 
 .valid-date {
-  margin-top: 50px;
-  font-size: 3.1rem;
+  margin-top: 10px;
+  font-size: 1.5rem;
   color: #041c2b;
 }
 
@@ -187,7 +185,6 @@ Active Ticket Holder Container
   direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #e5e6e8;
   width: 875px;
   height: 60px;
   border-radius: 10px;
@@ -196,7 +193,7 @@ Active Ticket Holder Container
 .missingperson-container p {
   margin-top: 10px;
   font-weight: 600;
-  font-size: 2.5rem;
+  font-size: 1rem;
 }
 
 .udid-container {
@@ -224,9 +221,8 @@ Active Ticket Holder Container
   direction: column;
   align-items: center;
   justify-content: center;
-  width: 105%;
-  margin-left: 0;
-  padding-left: 0;
+  width: 100%;
+  margin-left: 120;
   height: 150px;
 }
 
