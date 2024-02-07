@@ -15,8 +15,8 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   font-weight: 600;
-  height: 130px;
-  font-size: 35px;
+  height: 120px;
+  font-size: 45px;
   width: 100vw;
 }
 
@@ -30,28 +30,28 @@ svg {
 /*Header 2  of the Page*/
 #header2 {
   width: 100vw;
-  font-weight: 600;
-  padding-top: 20px;
-  padding-left: 0px;
+  font-weight: 700;
+  padding-top: 0px;
+  padding-left: 30px;
   padding-right: 20px;
-  font-size: 35px;
+  font-size: 36px;
   color: white;
   background-color: #041c2b;
-  margin-top: -25px;
+  margin-top: -50px;
   height: 100px;
 }
 
 #active-ticket {
-  height: 83px;
-  padding-left:15px;
-  border-bottom: 10px solid #008bd3;
+  padding-top:30px;
+  height: 110px;
+  border-bottom: 15px solid #008bd3;
 }
 
 /* Content container*/
 .full-height {
   margin-top: -25px;
   height: 100vh;
-  background-color: #b6cee5;
+  background-color: #041c2b;
 }
 
 /* Empty Ticket - Header*/
@@ -127,6 +127,7 @@ Active Ticket Holder Container
 #ticket-name {
   position: relative;
   margin-top: 70px !important;
+  margin-bottom: 70px !important;
   font-size: 3rem;
   font-weight: 600 !important;
   color: #041c2b !important;
@@ -142,19 +143,22 @@ Active Ticket Holder Container
   align-items: space-between;
   border-top: 1px solid #041c2b;
   border-bottom: 1px solid #041c2b;
-  width: 800px;
+  width: 850px;
 }
 
 .ticket-info-container p {
-  padding: 10px;
-  font-size: 3rem;
+  padding: 20px;
+  padding-bottom: 5px;
+  font-size: 2.8rem;
   color: #041c2b;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .valid-date {
-  margin-top: 10px;
-  font-size: 1.5rem;
+  margin-top: 35px;
+  margin-bottom:35px;
+  font-size: 2rem;
+  font-weight:600;
   color: #041c2b;
 }
 
@@ -181,6 +185,7 @@ Active Ticket Holder Container
 /* Identifer Code Container*/
 .missingperson-container {
   margin-top: 10px;
+  margin-bottom:100px;
   position: relative;
   display: flex;
   direction: column;
@@ -192,12 +197,13 @@ Active Ticket Holder Container
 }
 
 .missingperson-container p {
-  margin-top: 10px;
-  font-weight: 600;
-  font-size: 2rem;
+  font-weight: 400;
+  font-size: 2.2rem;
+  text-align:left;
 }
 
 .udid-container {
+  padding:40px;
   margin-top: 50px;
   position: relative;
   display: flex;
@@ -223,7 +229,6 @@ Active Ticket Holder Container
   align-items: center;
   justify-content: center;
   width: 100%;
-  margin-left: 120;
   height: 150px;
 }
 
@@ -256,20 +261,20 @@ Active Ticket Holder Container
   width: 40px;
   height: 40px;
   left: 10%;
-  animation-duration: 8s;
+  animation-duration: 5s;
 }
 .bubble:nth-child(2) {
   width: 20px;
   height: 20px;
   left: 20%;
-  animation-duration: 5s;
+  animation-duration: 3s;
   animation-delay: 1s;
 }
 .bubble:nth-child(3) {
   width: 50px;
   height: 50px;
   left: 35%;
-  animation-duration: 7s;
+  animation-duration: 4s;
   animation-delay: 2s;
 }
 .bubble:nth-child(4) {
@@ -341,7 +346,7 @@ Active Ticket Holder Container
   padding-bottom: 30px;
 }
 .readmore-btn {
-  color: green;
+  color: rgb(43, 173, 43);
   font-weight: 600;
   font-size: 40px;
 }

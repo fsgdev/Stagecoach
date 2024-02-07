@@ -7,7 +7,7 @@ function Header2() {
       class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom"
       id="header2"
     >
-      <div class="col-md-3 mb-2 mb-md-0" id="active-ticket">
+      <div id="active-ticket">
         <ul class="nav col-12 col-md-auto mb-2 justify-content-space-evenly mb-md-0">
           <Link to="/" style={{ textDecoration: "none", color: "white" }}>
             <li>Active Tickets</li>
