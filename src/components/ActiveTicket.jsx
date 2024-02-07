@@ -96,7 +96,7 @@ function ActiveTicket() {
   const minutes = Math.floor((timeLeft / (1000 * 60)) % 60);
   const seconds = Math.floor((timeLeft / 1000) % 60);
   const handleOrientation = (event) => {
-    let { beta } = event;
+    let { beta } = event.gamma;
     // Restrict the tilt to between 0 and 30 degrees
     beta = Math.min(Math.max(beta, -20), 20);
     setTilt(beta);
